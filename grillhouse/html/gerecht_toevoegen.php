@@ -5,7 +5,7 @@ if (!isset($_SESSION['is_admin']) || $_SESSION['is_admin'] !== true) {
     exit;
 }
 
-require 'database.php';
+require 'php/database.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $naam = $_POST['naam'];
@@ -24,4 +24,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     Prijs: <input type="number" step="0.01" name="prijs" required><br>
     <button type="submit">Toevoegen</button>
 </form>
-<a href="admin_menu.php">← Terug</a>
+<a href="../admin_menu.php">← Terug</a>
