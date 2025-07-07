@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page0 {
+    background: #808080 url("../images/background0.png") no-repeat center / 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 2vw 0 0 2vw;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 3;
+}
+
+.login {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.login:hover {
+    background-color: white;
+    color: black;
+}
+
+.text-grillhouse {
+    font-size: 114px;
+    color: #FFFFFF;
+    font-family: "hatton";
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 90vh;
+    width: 100%;
+    align-items: end;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.bottom-right {
+    justify-self: flex-end;
+    text-align: right;
+    color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1vw;
+    margin-right: 2vw;
+}
+
+.tussen-border {
+    width: auto;
+    height: 4px;
+    background-color: #000000;
+}
+
+.page1 {
+    background: #808080 url("../images/width_800.webp") no-repeat center / 100%;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 2vw 0 0 2vw;
+}
+
+.zwarte-verhaal {
+    background: #1e1f20 ;
+    width: auto;
+    height: 50vh;
+    display: flex;
+    align-self: flex-end;
+}
+
+.ons-verhaal {
+    color: #FFFF;
+    font-family: "hatton";
+    font-size: 80px;
+    align-self: center;
+    margin-left: 2vw;
+    font-weight: 500;
+}
+
+.drie-gerechten {
+    font-weight: 300;
+    color: #FFFFFF;
+    font-family: "hatton";
+    align-self: center;
+    font-size: 21px;
+    margin-left: 38vw;
+}
+ 
+
+.zwarte-menu {
+    background: #1e1f20 ;
+    width: auto;
+    height: 40vh;
+    display: flex;
+  
+}
+
+.menu-zin {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: "hatton";
+    align-self: center;
+    font-size: 100px;
+    margin-left: 33vw;
+    margin-top: 6vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh
+  }
+
+  .section {
+    flex: 1 1 33%;
+    min-width: 300px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid white;
+  }
+
+  .steak {
+    background-image: url("/images/fotobiefstuk.webp"); 
+  }
+
+  .beer {
+    background-image: url("/images/bier.webp"); 
+  }
+
+  .wine {
+    background-image: url("/images/fotowijn.webp"); 
+  }
+
+  .flyer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .links {
+    background-color: #1a1a1a;
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .links h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .links p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+  }
+
+  .knop {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .knop:hover {
+    background-color: white;
+    color: #1a1a1a;
+  }
+
+  .rechts {
+    flex: 1;
+    background-image: url(" /images/laatse-pagina.webp"); 
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Login pagina styling */
+
+
+.login-container {
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: auto;
+    margin-top: 10vh;
+}
+ 
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+ 
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+ 
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+.login-container button:hover {
+    background-color: #555;
+}
+ 
+
+.menukaart-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .menukaart-header img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .subtitel {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+  
+  .gerecht {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .gerecht:hover {
+    transform: translateY(-5px);
+  }
+  
+  .gerecht img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .gerecht h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #111;
+  }
+  
+  .prijs {
+    font-size: 16px;
+    color: #888;
+    margin-top: 5px;
+  }
+
+
+  
