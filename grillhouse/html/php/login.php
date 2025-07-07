@@ -15,9 +15,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if ($gebruiker['username'] === 'admin') {
             $_SESSION['is_admin'] = true;
-            header('Location: admin_menu.php');
+            header('Location: ../php/admin_menu.php');
         } else {
-            header('Location: menu.php');
+            header('Location: ../php/menu.php');
         }
         exit;
     } else {

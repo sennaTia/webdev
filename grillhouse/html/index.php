@@ -40,7 +40,7 @@
     <div class="tussen-border"></div>
 
     <div class="zwarte-menu">
-        <a href="menu.php" class="menu-zin">Op het menu</a>
+        <a href="../php/menu.php" class="menu-zin">Op het menu</a>
     </div>
 
     <div class="container">
