@@ -39,4 +39,4 @@ if (isset($_POST['submit'])) {
     echo "Gerecht bijgewerkt!";
 }
 ?>
-<a href="admin_menu.php">← Terug</a>
+<a href="../admin_menu.php">← Terug</a>
